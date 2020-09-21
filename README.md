@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://amine1921.github.io/ml-website" target="_blank">
+  <a href="https://amine1921.github.io/ml-website">
     <img src="./public/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,13 +11,13 @@
     A website that showcases my skills and my professional background and other things to discover !
     <br />
     This project was based on 
-    <a href="https://github.com/facebook/create-react-app" target="_blank">
+    <a href="https://github.com/facebook/create-react-app">
     React JS </a> .
     <br />
-    <a href="https://amine1921.github.io/ml-website/?target=_blank"><strong>Explore the website »</strong></a>
+    <a href=![New tab](https://amine1921.github.io/ml-website) ><strong>Explore the website »</strong></a>
     <br />
-    <a href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" style="margin-top: 10px ;" > </a>
-    <a href="https://github.com/AMINE1921" target="_blank"><img src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white" style="margin-top: 10px ;" > </a>
+    <a href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" style="margin-top: 10px ;" > </a>
+    <a href="https://github.com/AMINE1921"><img src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white" style="margin-top: 10px ;" > </a>
   </p>
 </p>
 <br />
