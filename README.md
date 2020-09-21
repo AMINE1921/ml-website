@@ -1,6 +1,28 @@
-**Ml OUBAYA WebSite**
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://amine1921.github.io/ml-website">
+    <img src="./public/favicon.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Mohamed Lamine OUBAYA - WebSite</h3>
+
+  <p align="center">
+    A website that showcases my skills and my professional background and other tips to discover !
+    <br />
+    This project was based on 
+    <a href="https://github.com/facebook/create-react-app">
+    React JS </a> .
+    <br />
+    <a href="https://amine1921.github.io/ml-website"><strong>Explore the website »</strong></a>
+    <br />
+    <a href="linkedin.com/in/mohamed-lamine-oubaya-124326194"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" style="margin-top: 10px ;" > </a>
+  </p>
+</p>
+<br />
+<br />
+
+
 
 ## Available Scripts
 
