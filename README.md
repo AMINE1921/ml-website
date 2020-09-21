@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://amine1921.github.io/ml-website">
+  <a href="https://amine1921.github.io/ml-website" target="_blank">
     <img src="./public/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,7 +11,7 @@
     A website that showcases my skills and my professional background and other things to discover !
     <br />
     This project was based on 
-    <a href="https://github.com/facebook/create-react-app">
+    <a href="https://github.com/facebook/create-react-app" target="_blank">
     React JS </a> .
     <br />
     <a href="https://amine1921.github.io/ml-website"><strong>Explore the website »</strong></a>
