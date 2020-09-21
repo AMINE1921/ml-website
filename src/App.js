@@ -9,7 +9,6 @@ import notFound from './pages/notFound';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
         <Switch>
           <Route path="/" exact component={home} />
           <Route path="/competences" component={knowledges} />
@@ -17,7 +16,6 @@ const App = () => {
           <Route path="/portfolio" component={portfolio} />
           <Route component={notFound} />
         </Switch>
-      </BrowserRouter>
     </>
   );
 };
