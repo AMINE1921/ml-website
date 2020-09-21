@@ -18,6 +18,7 @@
     <br />
     <a href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" style="margin-top: 10px ;" > </a>
     <a href="https://github.com/AMINE1921"><img src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white" style="margin-top: 10px ;" > </a>
+    <a href="http://discordapp.com/channels/@AMINE#5328"><img src="https://img.shields.io/badge/discord-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white" style="margin-top: 10px ;" > </a>
   </p>
 </p>
 <br />
@@ -92,7 +93,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
-Chat with me on [Discord](http://discordapp.com/channels/@AMINE#5328)
+<br />
+<br />
 
 © 2020 by Mohamed Lamine OUBAYA
