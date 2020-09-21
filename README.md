@@ -8,7 +8,7 @@
   <h3 align="center">Mohamed Lamine OUBAYA - WebSite</h3>
 
   <p align="center">
-    A website that showcases my skills and my professional background and other tips to discover !
+    A website that showcases my skills and my professional background and other things to discover !
     <br />
     This project was based on 
     <a href="https://github.com/facebook/create-react-app">
