@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/ml-website/static/js/main.8782cce9.chunk.js",
-    "main.js.map": "/ml-website/static/js/main.8782cce9.chunk.js.map",
+    "main.js": "/ml-website/static/js/main.2f43d577.chunk.js",
+    "main.js.map": "/ml-website/static/js/main.2f43d577.chunk.js.map",
     "runtime-main.js": "/ml-website/static/js/runtime-main.f7f3c004.js",
     "runtime-main.js.map": "/ml-website/static/js/runtime-main.f7f3c004.js.map",
-    "static/js/2.829c4ac6.chunk.js": "/ml-website/static/js/2.829c4ac6.chunk.js",
-    "static/js/2.829c4ac6.chunk.js.map": "/ml-website/static/js/2.829c4ac6.chunk.js.map",
+    "static/js/2.ab44e765.chunk.js": "/ml-website/static/js/2.ab44e765.chunk.js",
+    "static/js/2.ab44e765.chunk.js.map": "/ml-website/static/js/2.ab44e765.chunk.js.map",
     "index.html": "/ml-website/index.html",
-    "precache-manifest.ded5e99c1769181ea22cf4b51f3e4729.js": "/ml-website/precache-manifest.ded5e99c1769181ea22cf4b51f3e4729.js",
+    "precache-manifest.65c02507281bec3f59011df9d05f940d.js": "/ml-website/precache-manifest.65c02507281bec3f59011df9d05f940d.js",
     "service-worker.js": "/ml-website/service-worker.js",
-    "static/js/2.829c4ac6.chunk.js.LICENSE.txt": "/ml-website/static/js/2.829c4ac6.chunk.js.LICENSE.txt"
+    "static/js/2.ab44e765.chunk.js.LICENSE.txt": "/ml-website/static/js/2.ab44e765.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f7f3c004.js",
-    "static/js/2.829c4ac6.chunk.js",
-    "static/js/main.8782cce9.chunk.js"
+    "static/js/2.ab44e765.chunk.js",
+    "static/js/main.2f43d577.chunk.js"
   ]
 }
