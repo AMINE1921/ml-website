@@ -1,3 +1,5 @@
+**Ml OUBAYA WebSite**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +68,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Chat with me on [Discord](http://discordapp.com/channels/@AMINE#5328)
+
+© 2020 by Mohamed Lamine OUBAYA
