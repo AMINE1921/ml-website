@@ -14,7 +14,7 @@
     <a href="https://github.com/facebook/create-react-app" target="_blank">
     React JS </a> .
     <br />
-    <a href="https://amine1921.github.io/ml-website"><strong>Explore the website »</strong></a>
+    <a href="https://amine1921.github.io/ml-website/?target=_blank"><strong>Explore the website »</strong></a>
     <br />
     <a href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" style="margin-top: 10px ;" > </a>
     <a href="https://github.com/AMINE1921" target="_blank"><img src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white" style="margin-top: 10px ;" > </a>
