@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ml-website/static/css/main.c0930638.chunk.css",
-    "main.js": "/ml-website/static/js/main.46dbf765.chunk.js",
-    "main.js.map": "/ml-website/static/js/main.46dbf765.chunk.js.map",
+    "main.css": "/ml-website/static/css/main.c8828fce.chunk.css",
+    "main.js": "/ml-website/static/js/main.bc30d4aa.chunk.js",
+    "main.js.map": "/ml-website/static/js/main.bc30d4aa.chunk.js.map",
     "runtime-main.js": "/ml-website/static/js/runtime-main.f7f3c004.js",
     "runtime-main.js.map": "/ml-website/static/js/runtime-main.f7f3c004.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/ml-website/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c415f823.chunk.js": "/ml-website/static/js/2.c415f823.chunk.js",
-    "static/js/2.c415f823.chunk.js.map": "/ml-website/static/js/2.c415f823.chunk.js.map",
+    "static/css/2.17ba3353.chunk.css": "/ml-website/static/css/2.17ba3353.chunk.css",
+    "static/js/2.9d332cbb.chunk.js": "/ml-website/static/js/2.9d332cbb.chunk.js",
+    "static/js/2.9d332cbb.chunk.js.map": "/ml-website/static/js/2.9d332cbb.chunk.js.map",
     "index.html": "/ml-website/index.html",
-    "precache-manifest.26797dad98bc5699b7b53ff1e9c886a1.js": "/ml-website/precache-manifest.26797dad98bc5699b7b53ff1e9c886a1.js",
+    "precache-manifest.3f643b46bf4de0c372faca385bfb3025.js": "/ml-website/precache-manifest.3f643b46bf4de0c372faca385bfb3025.js",
     "service-worker.js": "/ml-website/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/ml-website/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.c0930638.chunk.css.map": "/ml-website/static/css/main.c0930638.chunk.css.map",
-    "static/js/2.c415f823.chunk.js.LICENSE.txt": "/ml-website/static/js/2.c415f823.chunk.js.LICENSE.txt",
+    "static/css/2.17ba3353.chunk.css.map": "/ml-website/static/css/2.17ba3353.chunk.css.map",
+    "static/css/main.c8828fce.chunk.css.map": "/ml-website/static/css/main.c8828fce.chunk.css.map",
+    "static/js/2.9d332cbb.chunk.js.LICENSE.txt": "/ml-website/static/js/2.9d332cbb.chunk.js.LICENSE.txt",
     "static/media/ml.png": "/ml-website/static/media/ml.95309e2f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f7f3c004.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c415f823.chunk.js",
-    "static/css/main.c0930638.chunk.css",
-    "static/js/main.46dbf765.chunk.js"
+    "static/css/2.17ba3353.chunk.css",
+    "static/js/2.9d332cbb.chunk.js",
+    "static/css/main.c8828fce.chunk.css",
+    "static/js/main.bc30d4aa.chunk.js"
   ]
 }
