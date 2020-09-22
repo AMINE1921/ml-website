@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ml-website/static/css/main.b1381715.chunk.css",
+    "main.css": "/ml-website/static/css/main.c0930638.chunk.css",
     "main.js": "/ml-website/static/js/main.46dbf765.chunk.js",
     "main.js.map": "/ml-website/static/js/main.46dbf765.chunk.js.map",
     "runtime-main.js": "/ml-website/static/js/runtime-main.f7f3c004.js",
@@ -9,10 +9,10 @@
     "static/js/2.c415f823.chunk.js": "/ml-website/static/js/2.c415f823.chunk.js",
     "static/js/2.c415f823.chunk.js.map": "/ml-website/static/js/2.c415f823.chunk.js.map",
     "index.html": "/ml-website/index.html",
-    "precache-manifest.7af03fb7694ba12143959d80f74dd1c2.js": "/ml-website/precache-manifest.7af03fb7694ba12143959d80f74dd1c2.js",
+    "precache-manifest.26797dad98bc5699b7b53ff1e9c886a1.js": "/ml-website/precache-manifest.26797dad98bc5699b7b53ff1e9c886a1.js",
     "service-worker.js": "/ml-website/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/ml-website/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b1381715.chunk.css.map": "/ml-website/static/css/main.b1381715.chunk.css.map",
+    "static/css/main.c0930638.chunk.css.map": "/ml-website/static/css/main.c0930638.chunk.css.map",
     "static/js/2.c415f823.chunk.js.LICENSE.txt": "/ml-website/static/js/2.c415f823.chunk.js.LICENSE.txt",
     "static/media/ml.png": "/ml-website/static/media/ml.95309e2f.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.f7f3c004.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.c415f823.chunk.js",
-    "static/css/main.b1381715.chunk.css",
+    "static/css/main.c0930638.chunk.css",
     "static/js/main.46dbf765.chunk.js"
   ]
 }
