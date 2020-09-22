@@ -10,7 +10,7 @@
   <p align="center">
     A website that showcases my skills and my professional background and other things to discover !
     <br />
-    This project was based on 
+    This project is based on 
     <a href="https://fr.reactjs.org">
     React JS </a> .
     <br />
