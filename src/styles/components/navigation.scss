@@ -1,0 +1,133 @@
+// ---------------Coté droite----------------------
+
+header {
+    padding: 2em 0;
+}
+header .name-logo {
+    float: left;
+}
+.logo {
+    color: $white !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 7px;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-left: 62px;
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+
+// ---------------Coté gauche----------------------
+
+.colorlib-nav-toggle {
+    cursor: pointer;
+    text-decoration: none;
+    &.active i {
+         &::before, &::after {
+             background: $black;
+         }
+   }
+   &.dark {
+       &.active i {
+             &::before, &::after {
+                 background: $black;
+             }
+       }
+   }
+   &:hover, &:focus, &:active {
+       outline: none;
+       border-bottom: none!important;
+   }
+   i {
+         position: relative;
+       display: inline-block;
+       width: 40px;
+       height: 2px;
+       color: $black;
+       font:bold 14px/.4 Helvetica;
+       text-transform: uppercase;
+       text-indent:-55px;
+       background: $white;
+       transition: all .2s ease-out;
+       .menu-show & {
+             background: $white;
+             color: $white;
+         }
+         &::before, &::after {
+              content:'';
+            width: 40px;
+            height: 2px;
+            background: $white;
+            position: absolute;
+            left:0;
+            .menu-show & {
+                 background: $white;
+            }
+       }
+   }
+   &.dark {
+       i {
+           position: relative;
+         color: $white;
+         background: $white;
+         transition: all .2s ease-out;
+             &::before, &::after {
+                background: $white;
+           }
+       }
+   }
+ }
+ 
+ .colorlib-nav-toggle i::before {
+   top: -7px;
+ }
+ .colorlib-nav-toggle i::after {
+   bottom: -7px;
+ }
+ .colorlib-nav-toggle:hover i::before {
+   top: -10px;
+ }
+ .colorlib-nav-toggle:hover i::after {
+   bottom: -10px;
+ }
+ .colorlib-nav-toggle.active i {
+     background: transparent;
+ }
+ .colorlib-nav-toggle.active i::before {
+   top:0;
+   -webkit-transform: rotateZ(45deg);
+      -moz-transform: rotateZ(45deg);
+       -ms-transform: rotateZ(45deg);
+        -o-transform: rotateZ(45deg);
+           transform: rotateZ(45deg);
+ }
+ .colorlib-nav-toggle.active i::after {
+   bottom:0;
+   -webkit-transform: rotateZ(-45deg);
+      -moz-transform: rotateZ(-45deg);
+       -ms-transform: rotateZ(-45deg);
+        -o-transform: rotateZ(-45deg);
+           transform: rotateZ(-45deg);
+ }
+ .colorlib-nav-toggle {
+     float: right;
+     z-index: 1003;
+     position: relative;
+     display: block;
+     margin: 0 auto;
+     cursor: pointer;
+     margin-top: 0;
+ }
