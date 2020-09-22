@@ -76,7 +76,10 @@
 			background-repeat: no-repeat;
 			background-position: center center;
 			height: calc(100vh - 0);
-			min-height: 500px;
+            min-height: 500px;
+            @media (max-width: 992px) {
+                min-height: 300px;
+            }
 			position: relative;
 			.overlay{
 				position: absolute;
@@ -90,7 +93,10 @@
 			}
 			.slider-text {
 				color: $white;
-				min-height: 500px;
+                min-height: 500px;
+                @media (max-width: 992px) {
+                    min-height: 300px;
+                }
 				position: relative;
 				.bold-text{
 					position: absolute;
