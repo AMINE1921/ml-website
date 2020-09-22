@@ -5,7 +5,7 @@ const contact = () => {
     return (
         <div>
             <Navigation></Navigation>
-            Hello depuis contact
+            Contact
         </div>
     );
 };

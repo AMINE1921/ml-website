@@ -5,7 +5,7 @@ const knowledges = () => {
     return (
         <div>
             <Navigation></Navigation>
-            C'est mes compètences !!!
+            Compétences
         </div>
     );
 };

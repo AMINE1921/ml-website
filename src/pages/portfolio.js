@@ -5,7 +5,7 @@ const portfolio = () => {
     return (
         <div>
             <Navigation></Navigation>
-            Ceci est le portfolio
+            Portfolio
         </div>
     );
 };
