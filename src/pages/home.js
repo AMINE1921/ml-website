@@ -64,7 +64,7 @@ const home = () => {
             </div>
             </OwlCarousel>
             <div className="btn-download">
-                <a className="" href={cv} download="CV_MohamedLamine_OUBAYA">Télécharger le CV</a>
+                <a className="btn btn-outline-light" href={cv} download="CV_MohamedLamine_OUBAYA">Télécharger le CV</a>
             </div>
             
         </div>

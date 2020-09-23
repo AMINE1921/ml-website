@@ -2,6 +2,7 @@
 
 .owl-carousel {
 	position: relative;
+	max-height: 500px;
 	.owl-item {
 		opacity: .4;
 		&.active {
