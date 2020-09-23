@@ -14,13 +14,14 @@
 		.react-pdf__Page__canvas {
 			width: 100% !important;
 			height: 100% !important;
-			margin-top: 30%;
 		}
 	}
 }
 #modalCV {
 	.modal-content {
 		background-color: transparent !important;
+		margin-top: 30%;
+
 	}
 	.modal-header {
 		border-bottom: none;
