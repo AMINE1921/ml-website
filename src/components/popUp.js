@@ -15,7 +15,7 @@ function Popup() {
                   { isMobile ? <div>
                     <Button className="btn-cv" variant="outline-light" onClick={showing}>Regarder le CV</Button>
                     <Modal id="modalCV" size="lg" show={show} onHide={showing}>
-                        {/* <Modal.Header closeButton></Modal.Header> */}
+                        <Modal.Header closeButton></Modal.Header>
                         <Modal.Body><DisplayPDF pdf={cv} /></Modal.Body>
                     </Modal> </div> :
                     <a className="btn-cv btn btn-outline-light" href={cv} download="CV_MohamedLamine_OUBAYA">Télécharger le CV</a> }
