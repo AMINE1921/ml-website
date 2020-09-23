@@ -2,10 +2,8 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import Navigation from '../components/Navigation';
-import DisplayPDF from "../components/DisplayPDF";
-import Popup from "../components/popUp";
-import cv from '../media/CV.pdf'
+import Navigation from '../components/Navigation/Navigation';
+import Popup from "../components/Popup";
 
 const home = () => {
     return (
@@ -67,7 +65,6 @@ const home = () => {
             </div>
             </OwlCarousel>
             <Popup />
-            
         </div>
     );
 };

@@ -4,7 +4,7 @@ import {isMobile} from 'react-device-detect';
 import DisplayPDF from "./DisplayPDF";
 import cv from '../media/CV.pdf'
 
-function Popup() {
+const Popup = () => {
     const [show, setShow] = useState(false);
     const showing = () => {
       setShow(!show);
