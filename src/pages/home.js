@@ -3,6 +3,8 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Navigation from '../components/Navigation';
+import DisplayPDF from "../components/DisplayPDF";
+import Popup from "../components/popUp";
 import cv from '../media/CV.pdf'
 
 const home = () => {
@@ -64,9 +66,7 @@ const home = () => {
                 </div>
             </div>
             </OwlCarousel>
-            <div className="btn-download">
-                <a className="btn btn-outline-light" href={cv} download="CV_MohamedLamine_OUBAYA">Télécharger le CV</a>
-            </div>
+            <Popup />
             
         </div>
     );

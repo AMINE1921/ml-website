@@ -1,0 +1,25 @@
+// ---------------Bouton download & open----------------------
+
+.btn-download {
+	@include verticalCenter;
+	flex-direction: column;
+	.btn-cv {
+		min-width: 170px;
+		margin-bottom: 1%;
+	}
+}
+.react-pdf__Document {
+	@include verticalCenter;
+}
+#modalCV {
+	.modal-content {
+		background-color: transparent !important;
+	}
+	.modal-header {
+		border-bottom: none;
+	}
+	.close {
+		color: white;
+		opacity: 1;
+	}
+}
