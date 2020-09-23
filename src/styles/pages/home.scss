@@ -2,7 +2,6 @@
 
 .owl-carousel {
 	position: relative;
-	max-height: 500px;
 	.owl-item {
 		opacity: .4;
 		&.active {
@@ -71,7 +70,6 @@
 	}
 	// big slider
 	&.owl-theme {
-		max-height: 500px;
 		z-index: 0;
 		position: relative;
 
