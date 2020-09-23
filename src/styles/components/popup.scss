@@ -10,6 +10,13 @@
 }
 .react-pdf__Document {
 	@include verticalCenter;
+	@media (max-width: 992px) {
+		.react-pdf__Page__canvas {
+			width: 100% !important;
+			height: 100% !important;
+			margin-top: 30%;
+		}
+	}
 }
 #modalCV {
 	.modal-content {
