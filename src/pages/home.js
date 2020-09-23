@@ -13,6 +13,7 @@ const home = () => {
             className="owl-theme"
             items="2"
             autoplay
+            autoHeightClass={false}
             animateOut= "fadeOut"
 	        animateIn= "fadeIn"
             nav={false}
