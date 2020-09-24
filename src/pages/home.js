@@ -4,7 +4,6 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Navigation from '../components/Navigation/Navigation';
-import Popup from "../components/Popup";
 
 const Home = () => {
      useEffect(() => {
@@ -12,7 +11,7 @@ const Home = () => {
             targets: '.item .text',
             translateY: [-100,0],
             easing: "easeOutExpo",
-            duration: 1000,
+            duration: 1500,
             delay: (el, i) => 30 * i
         })
      });
@@ -74,7 +73,26 @@ const Home = () => {
                 </div>
             </div>
             </OwlCarousel>
-            <Popup />
+            {/* <div className="btns">
+                <a className="iconsRS" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin fa-2x"></i></a>
+                <a className="iconsRS" href="https://github.com/AMINE1921"><i className="fab fa-github-square fa-2x"></i></a>
+            </div> */}
+            <section class="btns">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194">
+                <div className="text"><i className="fab fa-linkedin fa-2x"></i></div>
+                <span class="line -right"></span>
+                <span class="line -top"></span>
+                <span class="line -left"></span>
+                <span class="line -bottom"></span>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921">
+                <div className="text"><i className="fab fa-github-square fa-2x"></i></div>
+                <span class="line -right"></span>
+                <span class="line -top"></span>
+                <span class="line -left"></span>
+                <span class="line -bottom"></span>
+            </a>
+            </section>
         </div>
     );
 };
