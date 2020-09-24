@@ -73,10 +73,6 @@ const Home = () => {
                 </div>
             </div>
             </OwlCarousel>
-            {/* <div className="btns">
-                <a className="iconsRS" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin fa-2x"></i></a>
-                <a className="iconsRS" href="https://github.com/AMINE1921"><i className="fab fa-github-square fa-2x"></i></a>
-            </div> */}
             <section class="btns">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194">
                 <div className="text"><i className="fab fa-linkedin fa-2x"></i></div>

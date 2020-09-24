@@ -250,7 +250,6 @@ $thick : 3px;
 $pad : 0.1em;
 $extra : calc(#{$pad} * 1.2);
 
-
 .btns {
 	@include verticalCenter;
   a {
