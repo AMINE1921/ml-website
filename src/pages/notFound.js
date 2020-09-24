@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation/Navigation';
 
-const notFound = () => {
+const NotFound = () => {
     return (
         <div>
             <Navigation></Navigation>
@@ -10,4 +10,4 @@ const notFound = () => {
     );
 };
 
-export default notFound;
+export default NotFound;

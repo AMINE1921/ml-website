@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation/Navigation';
 
-const knowledges = () => {
+const Knowledges = () => {
     return (
         <div>
             <Navigation></Navigation>
@@ -10,4 +10,4 @@ const knowledges = () => {
     );
 };
 
-export default knowledges;
+export default Knowledges;

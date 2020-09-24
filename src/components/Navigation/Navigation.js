@@ -8,10 +8,10 @@ const Navigation = () => {
         <div className="navBar">
             <header>
                 <div className="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="navbar-brand name-logo">
-                                <div class="logo"><NavLink exact to="/" ><span class="logo-img" style={{backgroundImage: `url(${ml_logo})`}}> </span>Mohamed Lamine OUBAYA</NavLink></div>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="navbar-brand name-logo">
+                                <div className="logo"><NavLink exact to="/" ><span className="logo-img" style={{backgroundImage: `url(${ml_logo})`}}> </span>Mohamed Lamine OUBAYA</NavLink></div>
                             </div>
                             <div className="js-nav-toggle nav-toggle" onClick={handleCollapse.bind(this)}><i></i></div>
                         </div>
@@ -20,8 +20,8 @@ const Navigation = () => {
             </header>
 
             <nav id="main-nav" role="navigation">
-                <div className="js-fullheight col-table">
-                    <div className="col-table-cell js-fullheight" onClick={handleCollapse.bind(this)}>
+                <div className="col-table">
+                    <div className="col-table-cell" onClick={handleCollapse.bind(this)}>
                         <div className="row no-gutters">
                             <div className="col-md-12 text-center">
                                 <ul>

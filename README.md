@@ -8,7 +8,7 @@
   <h3 align="center">Mohamed Lamine OUBAYA - WebSite</h3>
 
   <p align="center">
-    A website that showcases my skills and my professional background and more !
+    A website that showcases my skills, my professional background and much more !
     <br />
     This project is based on 
     <a href="https://fr.reactjs.org">
