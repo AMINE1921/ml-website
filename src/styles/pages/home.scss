@@ -257,6 +257,8 @@ $extra : calc(#{$pad} * 1.2);
 		padding: $pad $extra;
 		border: $thick solid transparent;
 		position: relative;
+		margin-left: 1%;
+		margin-right: 1%;
 		cursor: pointer;
 
 		.text {
