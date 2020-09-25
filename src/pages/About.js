@@ -12,7 +12,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="heading">
-                                <h3><b>FORMATION</b></h3>
+                                <h3><b>FORMATIONS</b></h3>
                             </div>
                         </div>
                         <div className="col-sm-8">
