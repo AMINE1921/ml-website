@@ -255,11 +255,9 @@ $extra : calc(#{$pad} * 1.2);
 	a {
 		color: white;
 		padding: $pad $extra;
-		display: inline-block;
 		border: $thick solid transparent;
 		position: relative;
 		cursor: pointer;
-		letter-spacing: 0.07em;
 
 		.text {
 		transform: translate3d(0,$pad,0);
