@@ -19,20 +19,20 @@ const About = () => {
                             <div className="education-wrapper">
                                 <div className="education margin-b-50">
                                     <h4><b>PREMIÈRE ANNÉE DE CYCLE INGÉNIEUR</b></h4>
-                                    <h5 className="font-yellow"><b>CESI ÉCOLE D'INGÉNIEURS</b></h5>
+                                    <h5><b>CESI ÉCOLE D'INGÉNIEURS, REIMS</b></h5>
                                 </div>
                                 <div className="education margin-b-50">
                                     <h4><b>DEUXIÈME ANNÉE DE CYCLE PRÉPARATOIRE INTÉGRÉ</b></h4>
-                                    <h5 className="font-yellow"><b>CESI ÉCOLE D'INGÉNIEURS</b></h5>
+                                    <h5><b>CESI ÉCOLE D'INGÉNIEURS, REIMS</b></h5>
                                 </div>
                                 <div className="education margin-b-50">
                                     <h4><b>PREMIÈRE ANNÉE DE CYCLE PRÉPARATOIRE INTÉGRÉ</b></h4>
-                                    <h5 className="font-yellow"><b>CESI EXIA REIMS</b></h5>
+                                    <h5><b>CESI EXIA, REIMS</b></h5>
                                 </div>
                                 <div className="education margin-b-50">
                                     <h4><b>BACCALAURÉAT TECHNIQUE MATHÉMATIQUE</b></h4>
-                                    <h5 className="font-yellow"><b>LYCÉE PUBLIQUE - ALGÉRIE</b></h5>
-                                    <h6 className="font-lite-black margin-t-10">DIPLÔMÉ EN AOÛT 2018</h6>
+                                    <h5><b>LYCÉE PUBLIQUE, ALGÉRIE</b></h5>
+                                    <h6 className="font-lite">DIPLÔMÉ EN AOÛT 2018</h6>
                                 </div>
                             </div>
                         </div>

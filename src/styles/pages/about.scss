@@ -1,8 +1,10 @@
 .education-wrapper {
     position: relative;
-    .margin-t-10 {
-        margin-top: 15px;
+    h5 {
         color: $primary;
+    }
+    h6 {
+        margin-top: 15px;
     }
 }
 
