@@ -2,51 +2,62 @@
 
 .owl-carousel {
 	position: relative;
+
 	.owl-item {
 		opacity: .4;
+
 		&.active {
 			opacity: 1;
 		}
 	}
-	
+
 	.owl-nav {
 		position: absolute;
 		top: 50%;
 		width: 100%;
+
 		.owl-prev,
 		.owl-next {
 			position: absolute;
 			transform: translateY(-50%);
 			margin-top: -10px;
+
 			span {
 				&:before {
 					font-size: 40px;
 				}
 			}
+
 			opacity: 0;
 		}
+
 		.owl-prev {
 			left: 0;
 		}
+
 		.owl-next {
 			right: 0;
 		}
 	}
+
 	.owl-dots {
 		position: relative;
 		text-align: center;
 		margin-top: 30px;
+
 		.owl-dot {
-			display:inline-block;
-			zoom:1;
+			display: inline-block;
+			zoom: 1;
+
 			span {
 				width: 10px;
 				height: 10px;
-				background: lighten($black,60%);
+				background: lighten($black, 60%);
 				border-radius: 50%;
 				display: inline-block;
 				margin: 5px 7px;
 			}
+
 			&.active {
 				span {
 					background: $primary;
@@ -54,20 +65,25 @@
 			}
 		}
 	}
-	&:hover{
-		.owl-nav{
+
+	&:hover {
+		.owl-nav {
+
 			.owl-prev,
-			.owl-next{
+			.owl-next {
 				opacity: 1;
 			}
+
 			.owl-prev {
 				left: -20px;
 			}
+
 			.owl-next {
 				right: -20px;
 			}
 		}
 	}
+
 	// big slider
 	&.owl-theme {
 		z-index: 0;
@@ -78,12 +94,15 @@
 			background-repeat: no-repeat;
 			background-position: center center;
 			height: calc(100vh - 0);
-            min-height: 500px;
-            @media (max-width: 992px) {
-                min-height: 300px;
-            }
+			min-height: 500px;
+
+			@media (max-width: 992px) {
+				min-height: 300px;
+			}
+
 			position: relative;
-			.overlay{
+
+			.overlay {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -93,23 +112,28 @@
 				background: $primary;
 				opacity: 0;
 			}
+
 			.slider-text {
 				color: $white;
-                min-height: 500px;
-                @media (max-width: 992px) {
-                    min-height: 300px;
-                }
+				min-height: 500px;
+
+				@media (max-width: 992px) {
+					min-height: 300px;
+				}
+
 				position: relative;
-				.bold-text{
+
+				.bold-text {
 					position: absolute;
 					top: -20px;
 					left: 0;
 					right: 0;
 					bottom: 0;
-					font-weight: 700!important;
+					font-weight: 700 !important;
 					font-size: 100px;
-					color: rgba(255,255,255,.08);
-				}	
+					color: rgba(255, 255, 255, .08);
+				}
+
 				h1 {
 					font-size: 55px;
 					color: $white;
@@ -118,43 +142,53 @@
 					text-transform: uppercase;
 					letter-spacing: 10px;
 					display: inline-block;
-                    position: relative;
-                    @media (max-width: 992px) {
-                        font-size: 8vw;
-                    }
+					position: relative;
+
+					@media (max-width: 992px) {
+						font-size: 8vw;
+					}
 				}
+
 				p {
 					font-size: 20px;
 					line-height: 1.5;
 					font-weight: 300;
-					color: rgba(255,255,255,.8);
-					a.scroll{
-						color: rgba(255,255,255,.6);
+					color: rgba(255, 255, 255, .8);
+
+					a.scroll {
+						color: rgba(255, 255, 255, .6);
 						font-weight: 400;
 						text-transform: uppercase;
 						letter-spacing: 4px;
 					}
-					strong{
+
+					strong {
 						font-weight: 700;
-						a{
+
+						a {
 							color: $white;
 						}
 					}
 				}
-				.breadcrumbs{
+
+				.breadcrumbs {
 					text-transform: uppercase;
 					font-size: 13px;
 					letter-spacing: 1px;
-					span{
-						border-bottom: 2px solid rgba(255,255,255,.1);
-						a{
+
+					span {
+						border-bottom: 2px solid rgba(255, 255, 255, .1);
+
+						a {
 							color: $white;
 						}
 					}
 				}
 			}
 		}
+
 		.owl-nav {
+
 			.owl-prev,
 			.owl-next {
 				span {
@@ -162,20 +196,25 @@
 				}
 			}
 		}
-		&:hover{
-			.owl-nav{
+
+		&:hover {
+			.owl-nav {
+
 				.owl-prev,
-				.owl-next{
+				.owl-next {
 					opacity: 1;
 				}
+
 				.owl-prev {
 					left: 20px;
 				}
+
 				.owl-next {
 					right: 20px;
 				}
 			}
 		}
+
 		.owl-dots {
 			position: absolute;
 			left: 0;
@@ -191,37 +230,42 @@
 				border-radius: 50%;
 				background: lighten($black, 90%);
 				background: none;
-				border: 2px solid rgba(255,255,255,.5);
-				outline: none!important;
+				border: 2px solid rgba(255, 255, 255, .5);
+				outline: none !important;
 				position: relative;
 				transition: .3s all ease;
 				display: inline-block;
+
 				span {
 					position: absolute;
 					width: 12px;
 					height: 12px;
-					background: rgba(255,255,255,.5 );
-					border-radius: 50%!important;
+					background: rgba(255, 255, 255, .5);
+					border-radius: 50% !important;
 					left: 0%;
 					top: 2px;
 					display: block;
 					transform: translate(-50%, -50%);
-				}	
+				}
+
 				&.active {
-					border: 2px solid rgba(255,255,255,1);
-					span {	
-						background: rgba(255,255,255,1);
-					}	
+					border: 2px solid rgba(255, 255, 255, 1);
+
+					span {
+						background: rgba(255, 255, 255, 1);
+					}
 				}
 			}
 		}
 	}
 }
+
 .owl-custom-nav {
 	float: right;
 	position: relative;
 	z-index: 10;
-	border: 1px solid red;
+	border: 1px solid $primary;
+
 	.owl-custom-prev,
 	.owl-custom-next {
 		padding: 10px;
@@ -236,8 +280,10 @@
 
 .owl-carousel .owl-item {
 	max-height: 500px;
+
 	.item {
 		max-height: 500px;
+
 		@media (max-width: 992px) {
 			max-height: 400px;
 		}
@@ -252,6 +298,7 @@ $extra : calc(#{$pad} * 1.2);
 
 .btns {
 	@include verticalCenter;
+
 	a {
 		color: white;
 		padding: $pad $extra;
@@ -262,23 +309,23 @@ $extra : calc(#{$pad} * 1.2);
 		cursor: pointer;
 
 		.text {
-		transform: translate3d(0,$pad,0);
-		transition: transform 0.4s cubic-bezier(.2,0,0,1) 0.4s;
+			transform: translate3d(0, $pad, 0);
+			transition: transform 0.4s cubic-bezier(.2, 0, 0, 1) 0.4s;
 		}
 
 		&:after {
-		position: absolute;
-		content: '';
-		bottom: -$thick;
-		left: $extra;
-		right: $extra;
-		height: $thick;
-		background: $white;
-		transition: 
-			transform 0.8s cubic-bezier(1,0,.37,1) 0.2s,
-			right 0.2s cubic-bezier(.04,.48,0,1) 0.6s,
-			left 0.4s cubic-bezier(.04,.48,0,1) 0.6s;
-		transform-origin: left;
+			position: absolute;
+			content: '';
+			bottom: -$thick;
+			left: $extra;
+			right: $extra;
+			height: $thick;
+			background: $white;
+			transition:
+				transform 0.8s cubic-bezier(1, 0, .37, 1) 0.2s,
+				right 0.2s cubic-bezier(.04, .48, 0, 1) 0.6s,
+				left 0.4s cubic-bezier(.04, .48, 0, 1) 0.6s;
+			transform-origin: left;
 		}
 
 	}
@@ -287,67 +334,70 @@ $extra : calc(#{$pad} * 1.2);
 		position: absolute;
 		background: $white;
 
-		&.-right, &.-left {
-		width: $thick;
-		bottom: -$thick;
-		top: -$thick;
-		transform: scale3d(1,0,1);
-		}  
+		&.-right,
+		&.-left {
+			width: $thick;
+			bottom: -$thick;
+			top: -$thick;
+			transform: scale3d(1, 0, 1);
+		}
 
-		&.-top, &.-bottom {
-		height: $thick;
-		left: -$thick;
-		right: -$thick;
-		transform: scale3d(0,1,1);
+		&.-top,
+		&.-bottom {
+			height: $thick;
+			left: -$thick;
+			right: -$thick;
+			transform: scale3d(0, 1, 1);
 		}
 
 		&.-right {
-		right: -$thick;
-		transition: transform 0.1s cubic-bezier(1,0,.65,1.01) 0.23s;
-		transform-origin: top;
+			right: -$thick;
+			transition: transform 0.1s cubic-bezier(1, 0, .65, 1.01) 0.23s;
+			transform-origin: top;
 		}
 
 		&.-top {
-		top: -$thick;
-		transition: transform 0.08s linear 0.43s;
-		transform-origin: left;
+			top: -$thick;
+			transition: transform 0.08s linear 0.43s;
+			transform-origin: left;
 		}
 
 		&.-left {
-		left: -$thick;
-		transition: transform 0.08s linear 0.51s;
-		transform-origin: bottom;
+			left: -$thick;
+			transition: transform 0.08s linear 0.51s;
+			transform-origin: bottom;
 		}
 
 		&.-bottom {
-		bottom: -$thick;
-		transition: transform 0.3s cubic-bezier(1,0,.65,1.01);
-		transform-origin: right;
-		}  
-  	}
+			bottom: -$thick;
+			transition: transform 0.3s cubic-bezier(1, 0, .65, 1.01);
+			transform-origin: right;
+		}
+	}
 
-	a:hover, a:active {
+	a:hover,
+	a:active {
 		.text {
-		transform: translate3d(0,0,0);
-		transition: transform 0.6s cubic-bezier(.2,0,0,1) 0.4s;
+			transform: translate3d(0, 0, 0);
+			transition: transform 0.6s cubic-bezier(.2, 0, 0, 1) 0.4s;
 		}
 
 		&:after {
-		transform: scale3d(0,1,1);
-		right: -$thick;
-		left: -$thick;
-		transform-origin: right;
-		transition: 
-			transform 0.2s cubic-bezier(1,0,.65,1.01) 0.17s,
-			right 0.2s cubic-bezier(1,0,.65,1.01),
-			left 0s 0.3s;
+			transform: scale3d(0, 1, 1);
+			right: -$thick;
+			left: -$thick;
+			transform-origin: right;
+			transition:
+				transform 0.2s cubic-bezier(1, 0, .65, 1.01) 0.17s,
+				right 0.2s cubic-bezier(1, 0, .65, 1.01),
+				left 0s 0.3s;
 		}
 
 		.line {
-			transform: scale3d(1,1,1);
+			transform: scale3d(1, 1, 1);
 
 			&.-right {
-				transition: transform 0.1s cubic-bezier(1,0,.65,1.01) 0.2s;
+				transition: transform 0.1s cubic-bezier(1, 0, .65, 1.01) 0.2s;
 				transform-origin: bottom;
 			}
 
@@ -362,7 +412,7 @@ $extra : calc(#{$pad} * 1.2);
 			}
 
 			&.-bottom {
-				transition: transform 0.5s cubic-bezier(0,.53,.29,1) 0.56s;
+				transition: transform 0.5s cubic-bezier(0, .53, .29, 1) 0.56s;
 				transform-origin: left;
 			}
 		}

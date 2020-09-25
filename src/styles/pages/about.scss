@@ -1,0 +1,47 @@
+.education-wrapper {
+    position: relative;
+    .margin-t-10 {
+        margin-top: 15px;
+        color: $primary;
+    }
+}
+
+.education-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    left: -51px;
+    width: 2px;
+    background: #ccc;
+
+    @media (max-width: 992px) {
+        left: -23px;
+    }
+
+    @media (max-width: 575px) {
+        left: null !important;
+    }
+}
+
+.education-wrapper .education {
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.education-wrapper .education:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -58px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px #2f88fc85;
+    background: $primary;
+
+    @media (max-width: 992px) {
+        left: -30px;
+    }
+}

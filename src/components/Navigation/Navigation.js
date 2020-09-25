@@ -26,9 +26,10 @@ const Navigation = () => {
                             <div className="col-md-12 text-center">
                                 <ul>
                                     <li className={`${isCurrentUrl('#/') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/" ><span><small>01</small>Accueil</span></NavLink></li>
-                                    <li className={`${isCurrentUrl('#/competences') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/competences" ><span><small>02</small>Compétences</span></NavLink></li>
-                                    <li className={`${isCurrentUrl('#/portfolio') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/portfolio" ><span><small>03</small>Portfolio</span></NavLink></li>
-                                    <li className={`${isCurrentUrl('#/contact') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/contact" ><span><small>04</small>Contact</span></NavLink></li>
+                                    <li className={`${isCurrentUrl('#/about') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/about" ><span><small>02</small>À propos de moi</span></NavLink></li>
+                                    <li className={`${isCurrentUrl('#/competences') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/competences" ><span><small>03</small>Compétences</span></NavLink></li>
+                                    <li className={`${isCurrentUrl('#/portfolio') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/portfolio" ><span><small>04</small>Portfolio</span></NavLink></li>
+                                    <li className={`${isCurrentUrl('#/contact') ? 'active' : ''}`} onClick={!handleCollapse.bind(this)}><NavLink exact to="/contact" ><span><small>05</small>Contact</span></NavLink></li>
                                 </ul>
                             </div>
                         </div>

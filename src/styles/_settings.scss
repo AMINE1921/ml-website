@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 
-$font-primary: 'Poppins',Arial, sans-serif;
-$font-2: 'Josefin Sans', serif;
+$font-primary: 'Poppins',
+Arial,
+sans-serif;
+$font-2: 'Josefin Sans',
+serif;
 
 $white: #fff;
 $black: #121212;
@@ -11,15 +14,15 @@ $shadow: 0 1px 3px #333;
 $min-height: 95vh;
 
 @mixin verticalCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -27,7 +30,8 @@ body {
 	background: $black;
 	color: $white;
 	position: relative;
-	&:after{
+
+	&:after {
 		position: fixed;
 		top: -150px;
 		right: -50px;
@@ -35,7 +39,7 @@ body {
 		content: '';
 		width: 400px;
 		height: 600px;
-		border:2px solid rgba(255,255,255,.05);
+		border: 2px solid rgba(255, 255, 255, .05);
 		z-index: -1;
 		-webkit-transform: rotate(-30deg);
 		-moz-transform: rotate(-30deg);
@@ -44,7 +48,8 @@ body {
 		transform: rotate(-30deg);
 
 	}
-	&:before{
+
+	&:before {
 		position: fixed;
 		top: 500px;
 		left: -100px;
@@ -52,7 +57,7 @@ body {
 		content: '';
 		width: 400px;
 		height: 400px;
-		border:2px solid rgba(255,255,255,.05);
+		border: 2px solid rgba(255, 255, 255, .05);
 		z-index: -1;
 		-webkit-transform: rotate(20deg);
 		-moz-transform: rotate(20deg);
@@ -60,6 +65,7 @@ body {
 		-o-transform: rotate(20deg);
 		transform: rotate(20deg);
 	}
+
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
@@ -67,17 +73,25 @@ body {
 		width: 100%;
 	}
 }
+
 button {
-    cursor: pointer;
+	cursor: pointer;
 }
+
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
+
 a {
-    text-decoration: none !important;
-    color: $white;
-    cursor: pointer;
+	text-decoration: none !important;
+	color: $white;
+	cursor: pointer;
 }
+
 a:visited {
-    color: $white;
+	color: $white;
+}
+
+.progressBar {
+	transition: width .6s ease !important;
 }
