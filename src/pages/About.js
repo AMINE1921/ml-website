@@ -6,7 +6,7 @@ import picTest from '../media/author-1.jpg'
 
 const About = () => {
     return (
-        <div className={`${window.pageYOffset}`}>
+        <div>
             <Navigation></Navigation>
             <ProgressBar height="6px" bgcolor="#2f89fc" duration="6" />
             
