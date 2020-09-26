@@ -27,6 +27,7 @@ const About = () => {
                             <ul className="ftco-footer-social list-unstyled mt-4">
                                 <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
                                 <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921"><i className="fab fa-github fa-lg"></i></a></li>
+                                <li><a target="_blank" rel="noopener noreferrer" href="http://discordapp.com/channels/@AMINE#5328"><i className="fab fa-discord fa-lg"></i></a></li>
                             </ul>
                             <h5>Contactez moi !</h5>
                             <p>Email: <a href="mailto:mohamedlamine.oubaya@gmail.com">mohamedlamine.oubaya@gmail.com</a></p>
