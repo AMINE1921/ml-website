@@ -12,7 +12,7 @@ const Knowledges = () => {
             <ProgressBar height="6px" bgcolor="#2f89fc" duration="6" />
             <div className="container">
                 <div className="row d-flex">
-                    <div className="col-md-4 title" ><h3>Developpement</h3></div>
+                    <div className="col-md-4 title" ><h3>Développement</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={80} text={"HTML5"}></CircularProgress>
@@ -21,8 +21,8 @@ const Knowledges = () => {
                             <CircularProgress value={70} text={"JS"}></CircularProgress>
                             <CircularProgress value={30} text={"PHP"}></CircularProgress>
                             <CircularProgress value={50} text={"SQL"}></CircularProgress>
-                            <CircularProgress value={30} text={"JAVA"}></CircularProgress>
-                            <CircularProgress value={30} text={"C"}></CircularProgress>
+                            <CircularProgress value={20} text={"JAVA"}></CircularProgress>
+                            <CircularProgress value={20} text={"C"}></CircularProgress>
                             <CircularProgress value={70} text={"ReactJS"}></CircularProgress>
                             <CircularProgress value={50} text={"jQuery"}></CircularProgress>
                             <CircularProgress value={80} text={"Bootstrap"}></CircularProgress>
@@ -30,7 +30,7 @@ const Knowledges = () => {
                         </div>
                     </div>
                     {scrollDown.scrollDown}
-                    <div ref={scrollDown.ref} className="col-md-4 title" ><h3>Réseaux</h3></div>
+                    <div ref={scrollDown.ref} className="col-md-4 title" ><h3>Réseau</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={75} text={"CCNA 1"}></CircularProgress>
@@ -42,7 +42,7 @@ const Knowledges = () => {
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={90} text={"Photoshop"}></CircularProgress>
-                            <CircularProgress value={60} text={"Premier"}></CircularProgress>
+                            <CircularProgress value={60} text={"Premiere"}></CircularProgress>
                             <CircularProgress value={50} text={"Lightroom"}></CircularProgress>
                             <CircularProgress value={60} text={"XD"}></CircularProgress>
                         </div>

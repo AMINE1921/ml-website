@@ -2,6 +2,10 @@
     @include verticalCenter;
     h3 {
         text-align: center;
+        user-select : none;
+        &:hover {
+            border-bottom: 3px solid $white;
+        }
         @media (max-width: 992px) {
             position: unset !important;
             transform: unset !important;
@@ -16,6 +20,7 @@
         margin-bottom: 5%;
         .CircularProgressbar {
             margin-left: 2%;
+            user-select : none;
         }
     }
     @media (max-width: 992px) {
