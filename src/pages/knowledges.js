@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation/Navigation';
 import ProgressBar from "react-scroll-progress-bar";
+import ParallaxScrolling from '../components/ParallaxScrolling';
 import CircularProgress from '../components/CircularProgress/CircularProgress';
 import ScrollDown from '../components/ScrollDown';
 
@@ -12,7 +13,7 @@ const Knowledges = () => {
             <ProgressBar height="6px" bgcolor="#2f89fc" duration="6" />
             <div className="container">
                 <div className="row d-flex">
-                    <div className="col-md-4 title" ><h3>Développement</h3></div>
+                    <div className="col-md-4 title" style={{transform: `translateY(${ParallaxScrolling() * -0.1}px)`}} ><h3>Développement</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={80} text={"HTML5"}></CircularProgress>
