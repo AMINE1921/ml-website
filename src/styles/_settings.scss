@@ -29,6 +29,10 @@ $min-height: 95vh;
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	font-family: $font-primary;
 	background: $black;
@@ -95,10 +99,22 @@ a {
 	cursor: pointer;
 }
 
+a:hover {
+	color: $white;
+}
+
+a:focus {
+	color: $white;
+}
+
 a:visited {
 	color: $white;
 }
 
 .progressBar {
 	transition: width .6s ease !important;
+}
+
+.hide {
+	display: none
 }

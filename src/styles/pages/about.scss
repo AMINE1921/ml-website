@@ -1,5 +1,6 @@
 .about-section {
-    height: 100vh;
+    position: relative;
+    height: 90vh;
     h2{
 		font-weight: 300;
 		letter-spacing: 1px;
@@ -35,6 +36,9 @@
         }
         p {
             color: #8c8c8c;
+            a {
+                word-wrap: break-word;
+            }
         }
         .ftco-footer-social li {
             list-style: none;
