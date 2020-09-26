@@ -19,19 +19,19 @@ const About = () => {
                     <div className="col-md-4 author-img" style={{backgroundImage: `url(${picTest})`, transform: `translateY(${ParallaxScrolling() * -0.5}px)`}}></div>
                     <div className="col-md-2"></div>
                     <div className="col-md-6 wrap ftco-animate">
-                    <div className="about-desc">
-                        <h1 className="bold-text" style={{transform: `translateY(${ParallaxScrolling() * -0.2}px)`}}>À propos</h1>
-                        <div className="p-5">
-                        <h2 className="mb-5">Salut! Je suis Mohamed Lamine OUBAYA</h2>
-                        <p>Actuellement étudiant en troisième année au CESI École d'ingénieurs à Reims, à la recherche d'un stage en développement web.</p>
-                        <ul className="ftco-footer-social list-unstyled mt-4">
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921"><i className="fab fa-github fa-lg"></i></a></li>
-                        </ul>
-                        <h5>Contactez moi !</h5>
-                        <p>Email: <a href="mailto:mohamedlamine.oubaya@gmail.com">mohamedlamine.oubaya@gmail.com</a></p>
+                        <div className="about-desc">
+                            <h1 className="bold-text" style={{transform: `translateY(${ParallaxScrolling() * -0.2}px)`}}>À propos</h1>
+                            <div className="p-5">
+                            <h2 className="mb-5">Salut! Je suis Mohamed Lamine OUBAYA</h2>
+                            <p>Actuellement étudiant en troisième année au CESI École d'ingénieurs à Reims, à la recherche d'un stage en développement web.</p>
+                            <ul className="ftco-footer-social list-unstyled mt-4">
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921"><i className="fab fa-github fa-lg"></i></a></li>
+                            </ul>
+                            <h5>Contactez moi !</h5>
+                            <p>Email: <a href="mailto:mohamedlamine.oubaya@gmail.com">mohamedlamine.oubaya@gmail.com</a></p>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 </div>
@@ -49,7 +49,7 @@ const About = () => {
                         <div className="col-sm-8">
                             <div className="education-wrapper">
                                 <div className="education margin-b-50">
-                                    <h4><b>STAGE - DEVELOPPEUR FRONT-END ReactJS</b></h4>
+                                    <h4><b>STAGE - DEVELOPPEUR Front-End ReactJS</b></h4>
                                     <h5><b>MONSTOCK, REIMS</b></h5>
                                     <h6 className="font-lite">MARS - JUILLET 2020</h6>
                                 </div>

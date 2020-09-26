@@ -11,6 +11,7 @@ const CircularProgress = (props) => {
             value={value} 
             text={`${props.text}`}
             styles={buildStyles({
+                textSize: '0.8em',
                 textColor: "#fff",
                 pathColor: "#2f89fc",
                 trailColor: "transparent"
