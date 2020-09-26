@@ -50,10 +50,10 @@ const Home = () => {
             <div className="slider-item">
                 <div className="overlay"></div>
                 <div className="container">
-                    <div className="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-                        <div className="col-md-12" data-scrollax=" properties: { translateY: '70%' }">
+                    <div className="row slider-text align-items-center text-center justify-content-center">
+                        <div className="col-md-12">
                             <p className="text">Salut ! Je suis</p>
-                            <h1 className="mb-3 text" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Mohamed Lamine OUBAYA</h1>
+                            <h1 className="mb-3 text">Mohamed Lamine OUBAYA</h1>
                         </div>
                     </div>
                 </div>
@@ -63,10 +63,10 @@ const Home = () => {
                 <div className="slider-item">
                     <div className="overlay"></div>
                     <div className="container">
-                        <div className="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-                            <div className="col-md-12" data-scrollax=" properties: { translateY: '70%' }">
+                        <div className="row slider-text align-items-center text-center justify-content-center">
+                            <div className="col-md-12">
                                 <p>Je suis étudiant à</p>
-                                <h1 className="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">CESI école d'ingénieurs</h1>
+                                <h1 className="mb-3">CESI école d'ingénieurs</h1>
                             </div>
                         </div>
                     </div>

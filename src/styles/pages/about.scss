@@ -1,3 +1,18 @@
+.about-section {
+    padding: 7em 0;
+    h2{
+		font-weight: 300;
+		letter-spacing: 1px;
+    }
+    .author-img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+
+// ---------------Formations----------------------
 .education-wrapper {
     position: relative;
 
