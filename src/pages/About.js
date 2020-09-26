@@ -12,25 +12,46 @@ const About = () => {
             
             <section className="ftco-section about-section">
                 <div className="container">
-                <div className="row d-flex">
+                <div className="row d-flex my-5">
                     <div className="col-md-4 author-img" style={{backgroundImage: `url(${picTest})`, transform: `translateY(${ParallaxScrolling() * -0.5}px)`}}></div>
                     <div className="col-md-2"></div>
                     <div className="col-md-6 wrap ftco-animate">
                     <div className="about-desc">
-                        <h1 className="bold-text">About</h1>
+                        <h1 className="bold-text" style={{transform: `translateY(${ParallaxScrolling() * -0.2}px)`}}>À propos</h1>
                         <div className="p-5">
-                        <h2 className="mb-5">Hi! I'm Beckham Muff</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-                        <ul className="ftco-footer-social list-unstyled d-inline-flex p-2">
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i className="fab fa-github"></i></a></li>
+                        <h2 className="mb-5">Salut! Je suis Mohamed Lamine OUBAYA</h2>
+                        <p>Actuellement étudiant en troisième année au CESI École d'ingénieurs à Reims, à la recherche d'un stage en développement web.</p>
+                        <ul className="ftco-footer-social list-unstyled mt-4">
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921"><i className="fab fa-github fa-lg"></i></a></li>
                         </ul>
-                        <h5>Contact me here!</h5>
-                        <p>Email: <a href="mailto:mohamedlamine.oubaya@gmail.com">Mail</a></p>
+                        <h5>Contactez moi !</h5>
+                        <p>Email: <a href="mailto:mohamedlamine.oubaya@gmail.com">mohamedlamine.oubaya@gmail.com</a></p>
                         </div>
                     </div>
                     </div>
                 </div>
+                </div>
+            </section>
+
+            <section className="experiences-section section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <div className="heading">
+                                <h3><b>EXPERIENCES</b></h3>
+                            </div>
+                        </div>
+                        <div className="col-sm-8">
+                            <div className="education-wrapper">
+                                <div className="education margin-b-50">
+                                    <h4><b>STAGE - DEVELOPPEUR FRONT-END ReactJS</b></h4>
+                                    <h5><b>MONSTOCK, REIMS</b></h5>
+                                    <h6 className="font-lite">MARS - JUILLET 2020</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 

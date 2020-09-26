@@ -1,5 +1,5 @@
 .about-section {
-    padding: 7em 0;
+    height: 100vh;
     h2{
 		font-weight: 300;
 		letter-spacing: 1px;
@@ -10,9 +10,54 @@
         background-position: center center;
     }
 }
+.wrap {
+    padding: 0;
+    .about-desc {
+        position: relative;
+        .bold-text {
+            position: absolute;
+            z-index: -1;
+            top: 10px;
+            left: -60px;
+            right: 0;
+            bottom: 0;
+            font-size: 6em;
+            font-weight: 700 !important;
+            color: rgba(255, 255, 255, 0.08);
+            text-transform: uppercase;
+            user-select : none;
+            @media (max-width: 992px) {
+                width: 100%;
+                word-wrap: break-word;
+                font-size: 5em;
+                left: 8px;
+            }
+        }
+        p {
+            color: #8c8c8c;
+        }
+        .ftco-footer-social li {
+            list-style: none;
+            margin: 0 10px 10px 0;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    a {
+        cursor: pointer;
+        color: $primary !important;
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
 
 
 // ---------------Formations----------------------
+.experiences-section {
+    margin-bottom: 5%;
+}
+
 .education-wrapper {
     position: relative;
 

@@ -30,6 +30,9 @@ body {
 	background: $black;
 	color: $white;
 	position: relative;
+	font-size: 18px;
+	line-height: 1.8;
+	font-weight: 400;
 
 	&:after {
 		position: fixed;
