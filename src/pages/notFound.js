@@ -1,11 +1,13 @@
 import React from 'react';
-import Navigation from '../components/Navigation/Navigation';
+import { NavLink } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <div>
-            <Navigation></Navigation>
-            NOT FOUND !!!
+        <div id="notFound">
+            <div className="container">
+                <p>404, page not found.</p>
+                <NavLink exact to="/" ><span className="btn btn-outline-light">Retour vers l'accueil</span></NavLink>
+            </div>
         </div>
     );
 };
