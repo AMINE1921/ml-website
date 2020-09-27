@@ -14,7 +14,7 @@ function Popup(props) {
                     <Modal.Header closeButton><h3>{props.title}</h3></Modal.Header>
                     <Modal.Body>
                         { props.imgPopup ? <img className="card-img" src={props.imgPopup} alt="Projet" /> : null }
-                        { props.vidPopup ? <iframe width="100%" height="400" src={props.vidPopup} title="Démonstration du projet final" /> : null }
+                        { props.vidPopup ? <iframe width="100%" height="400" src={props.vidPopup} title="Démonstration du projet final" frameborder="0"></iframe> : null }
                         { (props.git || props.link ) ? <div className="links d-flex">
                             { props.link ? <a target="_blank" rel="noopener noreferrer" href={props.link}><i class="fas fa-link fa-2x"></i></a> : null }
                             { props.git ? <a target="_blank" rel="noopener noreferrer" href={props.git}><i class="fab fa-github fa-2x"></i></a> : null }
