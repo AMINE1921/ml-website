@@ -1,0 +1,80 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+
+// ---------------Card----------------------
+.card {
+    @include verticalCenter;
+    width: 18rem;
+    background: transparent;
+    margin-bottom: 2%;
+    .view {
+        display: none;
+    }
+    @media (max-width: 992px) {
+        @include make-col(9);
+    }
+    &:hover {
+        img {
+            opacity: 40%;
+        }
+        .view {
+            display: unset !important;
+            position: absolute;
+            cursor: pointer;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+// ---------------Modal----------------------
+.modal-backdrop.show {
+    opacity: .8 !important;
+}
+#modalProject {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    @include verticalCenter;
+	.modal-content {
+        background-color: transparent !important;
+        border: none !important;
+	}
+	.modal-header {
+        border-bottom: none;
+        h3 {
+            font-weight: 700 !important;
+            text-shadow: 0 1px 0 #fff;
+            user-select : none;
+        }
+	}
+	.close {
+		color: white;
+        opacity: 1;
+        &:hover {
+            color: $primary;
+            text-shadow: none;
+        }
+        &:focus {
+            outline: none;
+        }
+	}
+}
+
+.links {
+    @include verticalCenter;
+    margin-top: 2%;
+    a {
+        color: $white;
+        margin-left: 2%;
+        margin-right: 2%;
+        &:hover {
+            color: $primary;
+        }
+        &:focus {
+            color: $white;
+        }
+    }
+}
