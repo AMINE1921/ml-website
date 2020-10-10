@@ -1,0 +1,16 @@
+#contact {
+    .container.contact {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include verticalCenter;
+        a {
+            margin-left: 2%;
+            margin-right: 2%;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}

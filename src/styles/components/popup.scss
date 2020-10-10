@@ -9,6 +9,9 @@
     .view {
         display: none;
     }
+    img {
+        border-radius: 25% 10%;
+    }
     @media (max-width: 992px) {
         @include make-col(9);
     }

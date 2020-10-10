@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation/Navigation';
 import ScrollDown from '../components/ScrollDown';
 import ParallaxScrolling from '../components/ParallaxScrolling';
 import ProgressBar from "react-scroll-progress-bar";
-import picTest from '../media/author-1.jpg'
+import picProfil from '../media/pdp.png'
 
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
             <section className="ftco-section about-section">
                 <div className="container">
                 <div className="row d-flex">
-                    <div className="col-md-4 author-img" style={{backgroundImage: `url(${picTest})`, transform: `translateY(${ParallaxScrolling() * -0.5}px)`}}></div>
+                    <div className="col-md-4 author-img" style={{backgroundImage: `url(${picProfil})`, transform: `translateY(${ParallaxScrolling() * -0.5}px)`}}></div>
                     <div className="col-md-2"></div>
                     <div className="col-md-6 wrap ftco-animate">
                         <div className="about-desc">
