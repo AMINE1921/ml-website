@@ -41,7 +41,7 @@ const Knowledges = () => {
                     <div className="col-md-4 title" ><h3>Adobe</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
-                            <CircularProgress value={90} text={"Photoshop"}></CircularProgress>
+                            <CircularProgress value={80} text={"Photoshop"}></CircularProgress>
                             <CircularProgress value={60} text={"Premiere"}></CircularProgress>
                             <CircularProgress value={50} text={"Lightroom"}></CircularProgress>
                             <CircularProgress value={60} text={"XD"}></CircularProgress>
