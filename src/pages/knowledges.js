@@ -20,11 +20,11 @@ const Knowledges = () => {
                             <CircularProgress value={80} text={"Bootstrap"}></CircularProgress>
                             <CircularProgress value={80} text={"Sass"}></CircularProgress>
                             <CircularProgress value={70} text={"JS"}></CircularProgress>
-                            <CircularProgress value={50} text={"jQuery"}></CircularProgress>
+                            <CircularProgress value={60} text={"jQuery"}></CircularProgress>
                             <CircularProgress value={30} text={"PHP"}></CircularProgress>
                             <CircularProgress value={50} text={"SQL"}></CircularProgress>
                             <CircularProgress value={20} text={"JAVA"}></CircularProgress>
-                            <CircularProgress value={20} text={"C#"}></CircularProgress>
+                            <CircularProgress value={45} text={"C#"}></CircularProgress>
                             <CircularProgress value={20} text={"C"}></CircularProgress>
                             <CircularProgress value={70} text={"ReactJS"}></CircularProgress>
                             <CircularProgress value={30} text={"Sympfony"}></CircularProgress>
