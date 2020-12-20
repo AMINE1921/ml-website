@@ -46,13 +46,13 @@ const Portfolio = () => {
                     <Popup 
                         refScroll={scrollDown.ref}
                         img={media['proj3.png']} 
-                        title="TodoList Interface et Back-end sur Symfony5"
+                        title="TodoList sur Symfony5"
                         imgPopup={media['screen2.png']}
                         git="https://github.com/AMINE1921/TodoList_Symfony5"
                     />
                     <Popup 
                         img={media['proj4.png']} 
-                        title="Réecriture du jeux BoulderDash en JAVA"
+                        title="Réecriture du jeu BoulderDash en JAVA"
                         imgPopup={media['screen4.png']}
                     />
                     <Popup 
@@ -66,6 +66,12 @@ const Portfolio = () => {
                         title="Site web pour le BDE du CESI en HTML/CSS, JS et PHP"
                         imgPopup={media['screen6.png']}
                         git="https://github.com/yPROGGZ/ProjetWeb"
+                    />
+                    <Popup 
+                        img={media['proj7.png']} 
+                        title="Application de sauvegarde en .NET Core"
+                        imgPopup={media['screen7.png']}
+                        git="https://dev.azure.com/joachimhuart/EasySave"
                     />
                 </div>
             </div>
