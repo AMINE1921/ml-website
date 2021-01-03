@@ -61,7 +61,7 @@ const Portfolio = () => {
                         vidPopup={media['PubACAR.mp4']}
                         git="https://github.com/AMINE1921/Car"
                     />
-                    <Popup 
+                    <Popup
                         img={media['proj6.png']} 
                         title="Site web pour le BDE du CESI en HTML/CSS, JS et PHP"
                         imgPopup={media['screen6.png']}
