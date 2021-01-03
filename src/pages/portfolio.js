@@ -55,7 +55,7 @@ const Portfolio = () => {
                         title="Réecriture du jeu BoulderDash en JAVA"
                         imgPopup={media['screen4.png']}
                     />
-                    <Popup 
+                    <Popup
                         img={media['proj5.png']} 
                         title="Création d'un robot-véhicule autonome"
                         vidPopup={media['PubACAR.mp4']}
