@@ -67,7 +67,7 @@ const Portfolio = () => {
                         imgPopup={media['screen6.png']}
                         git="https://github.com/yPROGGZ/ProjetWeb"
                     />
-                    <Popup 
+                    <Popup
                         img={media['proj7.png']} 
                         title="Application de sauvegarde en .NET Core"
                         imgPopup={media['screen7.png']}
