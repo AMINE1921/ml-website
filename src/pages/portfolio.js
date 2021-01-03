@@ -50,7 +50,7 @@ const Portfolio = () => {
                         imgPopup={media['screen2.png']}
                         git="https://github.com/AMINE1921/TodoList_Symfony5"
                     />
-                    <Popup 
+                    <Popup
                         img={media['proj4.png']} 
                         title="Réecriture du jeu BoulderDash en JAVA"
                         imgPopup={media['screen4.png']}
