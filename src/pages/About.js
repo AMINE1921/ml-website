@@ -56,7 +56,7 @@ const About = () => {
                                     <h6 className="font-lite">JANVIER - AVRIL 2021</h6>
                                 </div>
                                 <div className="education margin-b-50">
-                                    <h4><b>STAGE - DÉVELOPPEUR FRONT-END</b></h4>
+                                    <h4><b>STAGE - DÉVELOPPEUR WEB FRONT-END</b></h4>
                                     <h7><b>ReactJS</b></h7>
                                     <h5><b>MONSTOCK, REIMS</b></h5>
                                     <h6 className="font-lite">MARS - JUILLET 2020</h6>
