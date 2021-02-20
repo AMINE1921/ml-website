@@ -80,14 +80,17 @@ const About = () => {
                                 <div className="education margin-b-50">
                                     <h4><b>PREMIÈRE ANNÉE DE CYCLE INGÉNIEUR</b></h4>
                                     <h5><b>CESI ÉCOLE D'INGÉNIEURS, REIMS</b></h5>
+                                    <h6 className="font-lite">2020-2021</h6>
                                 </div>
                                 <div className="education margin-b-50">
                                     <h4><b>DEUXIÈME ANNÉE DE CYCLE PRÉPARATOIRE INTÉGRÉ</b></h4>
                                     <h5><b>CESI ÉCOLE D'INGÉNIEURS, REIMS</b></h5>
+                                    <h6 className="font-lite">2019-2020</h6>
                                 </div>
                                 <div className="education margin-b-50">
                                     <h4><b>PREMIÈRE ANNÉE DE CYCLE PRÉPARATOIRE INTÉGRÉ</b></h4>
                                     <h5><b>CESI EXIA, REIMS</b></h5>
+                                    <h6 className="font-lite">2018-2019</h6>
                                 </div>
                                 <div className="education margin-b-50">
                                     <h4><b>BACCALAURÉAT TECHNIQUE MATHÉMATIQUE</b></h4>
