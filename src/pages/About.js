@@ -23,7 +23,7 @@ const About = () => {
                             <h1 className="bold-text" style={{transform: `translateY(${ParallaxScrolling() * -0.2}px)`}}>À propos</h1>
                             <div className="p-5">
                             <h2 className="mb-5">Salut ! Je suis Mohamed Lamine OUBAYA</h2>
-                            <p>Actuellement étudiant en troisième année au CESI École d'ingénieurs à Reims, et stagiaire chez Repar Compteur en tant que développeur web full stack.</p>
+                            <p>Actuellement étudiant en quatrième année au CESI École d'ingénieurs à Reims, à la recherche d'un stage en développement web à l'étranger.</p>
                             <ul className="ftco-footer-social list-unstyled mt-4">
                                 <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
                                 <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921"><i className="fab fa-github fa-lg"></i></a></li>
