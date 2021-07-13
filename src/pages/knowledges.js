@@ -3,8 +3,10 @@ import Navigation from '../components/Navigation/Navigation';
 import ProgressBar from "react-scroll-progress-bar";
 import CircularProgress from '../components/CircularProgress/CircularProgress';
 import ScrollDown from '../components/ScrollDown';
+import { useTranslation } from "react-i18next";
 
 const Knowledges = () => {
+    const { t } = useTranslation();
     const scrollDown = ScrollDown();
     return (
         <div>
@@ -12,7 +14,7 @@ const Knowledges = () => {
             <ProgressBar height="6px" bgcolor="#2f89fc" duration="6" />
             <div className="container">
                 <div className="row d-flex">
-                    <div className="col-md-4 title" ><h3>Développement</h3></div>
+                    <div className="col-md-4 title" ><h3>{t("dev")}</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={80} text={"HTML5"}></CircularProgress>
@@ -24,6 +26,7 @@ const Knowledges = () => {
                             <CircularProgress value={50} text={"NodeJS"}></CircularProgress>
                             <CircularProgress value={30} text={"PHP"}></CircularProgress>
                             <CircularProgress value={50} text={"SQL"}></CircularProgress>
+                            <CircularProgress value={20} text={"NoSQL"}></CircularProgress>
                             <CircularProgress value={20} text={"JAVA"}></CircularProgress>
                             <CircularProgress value={45} text={"C#"}></CircularProgress>
                             <CircularProgress value={20} text={"C"}></CircularProgress>
@@ -33,7 +36,7 @@ const Knowledges = () => {
                         </div>
                     </div>
                     {scrollDown.scrollDown}
-                    <div ref={scrollDown.ref} className="col-md-4 title" ><h3>Réseau</h3></div>
+                    <div ref={scrollDown.ref} className="col-md-4 title" ><h3>{t("network")}</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={75} text={"CCNA 1"}></CircularProgress>
@@ -41,7 +44,7 @@ const Knowledges = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 title" ><h3>Adobe</h3></div>
+                    <div className="col-md-4 title" ><h3>{t("adobe")}</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={80} text={"Photoshop"}></CircularProgress>
@@ -51,7 +54,7 @@ const Knowledges = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 title" ><h3>Autres</h3></div>
+                    <div className="col-md-4 title" ><h3>{t("other")}</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={80} text={"Git"}></CircularProgress>
