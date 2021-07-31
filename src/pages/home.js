@@ -57,7 +57,7 @@ const Home = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"
+          href="https://www.linkedin.com/in/mohamed-lamine-oubaya"
         >
           <div className="text">
             <i className="fab fa-linkedin fa-2x"></i>

@@ -27,7 +27,7 @@ const About = () => {
                             <h2 className="mb-5">{t("hello_name")}</h2>
                             <p>{t("desc")}</p>
                             <ul className="ftco-footer-social list-unstyled mt-4">
-                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya-124326194"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mohamed-lamine-oubaya"><i className="fab fa-linkedin-in fa-lg"></i></a></li>
                                 <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/AMINE1921"><i className="fab fa-github fa-lg"></i></a></li>
                                 <li><a target="_blank" rel="noopener noreferrer" href="http://discordapp.com/channels/@AMINE#5328"><i className="fab fa-discord fa-lg"></i></a></li>
                             </ul>
