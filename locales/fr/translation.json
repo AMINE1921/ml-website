@@ -47,5 +47,13 @@
   "boulderDash": "Réécriture du jeu BoulderDash en JAVA",
   "ingeniCar": "Création d'un robot-véhicule autonome",
   "bdeShop": "Site web pour le BDE du CESI en HTML/CSS, JS et PHP",
-  "easySave": "Application de sauvegarde en .NET Core"
+  "easySave": "Application de sauvegarde en .NET Core",
+
+  "name": "Nom",
+  "subject": "Sujet",
+  "message": "Message",
+  "submit": "Envoyer",
+  "success_message": "Le message a bien été envoyé 😄!",
+  "invalid_message": "Veuillez remplir tous les champs 😅!",
+  "error_message": "Oups ! Rafraichissez la page 😵‍💫 "
 }
