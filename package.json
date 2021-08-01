@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "animejs": "^3.2.0",
     "bootstrap": "^4.5.2",
+    "emailjs-com": "^3.2.0",
     "i18next": "^20.3.2",
     "i18next-browser-languagedetector": "^6.1.2",
     "i18next-http-backend": "^1.2.6",
@@ -23,6 +24,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-scroll-progress-bar": "^1.1.12",
+    "react-toastify": "^7.0.4",
     "reactjs-popup": "^2.0.3"
   },
   "scripts": {

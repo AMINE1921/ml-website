@@ -1,11 +1,13 @@
-import React from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Knowledges from './pages/Knowledges';
-import NotFound from './pages/NotFound';
+import React from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Knowledges from "./pages/Knowledges";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
           <Route component={NotFound} />
         </Switch>
       </HashRouter>
+      <ToastContainer />
     </>
   );
 };

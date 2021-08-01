@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap");
 
-$font-primary: 'Poppins',
-Arial,
-sans-serif;
-$font-2: 'Josefin Sans',
-serif;
+$font-primary: "Poppins", Arial, sans-serif;
+$font-2: "Josefin Sans", serif;
 
 $white: #fff;
 $black: #121212;
@@ -14,107 +11,177 @@ $shadow: 0 1px 3px #333;
 $min-height: 95vh;
 
 @mixin verticalCenter {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	-ms-overflow-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: $font-primary;
-	background: $black;
-	color: $white;
-	position: relative;
-	font-size: 18px;
-	line-height: 1.8;
-	font-weight: 400;
+  font-family: $font-primary;
+  background: $black;
+  color: $white;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 400;
 
-	&:after {
-		position: fixed;
-		top: -150px;
-		right: -50px;
-		bottom: 0;
-		content: '';
-		width: 400px;
-		height: 600px;
-		border: 2px solid rgba(255, 255, 255, .05);
-		z-index: -1;
-		-webkit-transform: rotate(-30deg);
-		-moz-transform: rotate(-30deg);
-		-ms-transform: rotate(-30deg);
-		-o-transform: rotate(-30deg);
-		transform: rotate(-30deg);
+  &:after {
+    position: fixed;
+    top: -150px;
+    right: -50px;
+    bottom: 0;
+    content: "";
+    width: 400px;
+    height: 600px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    z-index: -1;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
 
-	}
+  &:before {
+    position: fixed;
+    top: 500px;
+    left: -100px;
+    bottom: 0;
+    content: "";
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    z-index: -1;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
 
-	&:before {
-		position: fixed;
-		top: 500px;
-		left: -100px;
-		bottom: 0;
-		content: '';
-		width: 400px;
-		height: 400px;
-		border: 2px solid rgba(255, 255, 255, .05);
-		z-index: -1;
-		-webkit-transform: rotate(20deg);
-		-moz-transform: rotate(20deg);
-		-ms-transform: rotate(20deg);
-		-o-transform: rotate(20deg);
-		transform: rotate(20deg);
-	}
-
-	&.menu-show {
-		overflow: hidden;
-		position: fixed;
-		height: 100%;
-		width: 100%;
-	}
+  &.menu-show {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-	text-decoration: none !important;
-	color: $white;
-	cursor: pointer;
+  text-decoration: none !important;
+  color: $white;
+  cursor: pointer;
 }
 
 a:hover {
-	color: $white;
+  color: $white;
 }
 
 a:focus {
-	color: $white;
+  color: $white;
 }
 
 a:visited {
-	color: $white;
+  color: $white;
 }
 
 .progressBar {
-	transition: width .6s ease !important;
+  transition: width 0.6s ease !important;
 }
 
 .hide {
-	display: none
+  display: none;
+}
+
+.Toastify__toast--error {
+  border: 1px solid #eb5757;
+  border-radius: 50px !important;
+  background: #fae1e2 !important;
+}
+.Toastify__toast--error::after {
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--error::before {
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--success {
+  border: 1px solid #3a9ea5 !important;
+  border-radius: 50px !important;
+  background: #f0f9fa !important;
+}
+.Toastify__toast--success::before {
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--success::after {
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--warning {
+  border: 1px solid #e78326 !important;
+  border-radius: 50px !important;
+  background: #fadfc5 !important;
+}
+.Toastify__toast--warning::before {
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--warning::after {
+  position: absolute;
+  color: #e78326;
+  font-size: 15px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast-body {
+  color: $black;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 20px;
+  padding: 0px;
+  width: 100%;
+  font-weight: 500;
+  margin-left: 20px !important;
+}
+.Toastify__toast > button > svg {
+  display: none;
 }
