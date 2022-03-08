@@ -51,6 +51,12 @@ const About = () => {
                         </div>
                         <div className="col-sm-8">
                             <div className="education-wrapper">
+                            <div className="education margin-b-50">
+                                    <h4><b>{t("internship3")}</b></h4>
+                                    <h7><b>{t("react")}</b></h7>
+                                    <h5><b>{t("internship3_local")}</b></h5>
+                                    <h6 className="font-lite">{t("internship3_length")}</h6>
+                                </div>
                                 <div className="education margin-b-50">
                                     <h4><b>{t("internship2")}</b></h4>
                                     <h7><b>{t("react&express")}</b></h7>

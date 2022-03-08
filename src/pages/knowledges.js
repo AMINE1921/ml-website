@@ -32,7 +32,7 @@ const Knowledges = () => {
                             <CircularProgress value={20} text={"C"}></CircularProgress>
                             <CircularProgress value={70} text={"ReactJS"}></CircularProgress>
                             <CircularProgress value={50} text={"Express.js"}></CircularProgress>
-                            <CircularProgress value={30} text={"Sympfony"}></CircularProgress>
+                            <CircularProgress value={30} text={"Symfony"}></CircularProgress>
                         </div>
                     </div>
                     {scrollDown.scrollDown}
