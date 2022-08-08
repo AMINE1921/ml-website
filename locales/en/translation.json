@@ -53,6 +53,9 @@
   "ingeniCar": "Creation of an autonomous robot-vehicle",
   "bdeShop": "CESI Students Bureau website in HTML/CSS, JS and PHP",
   "easySave": "Backup application in . NET Core",
+  "encodePassword": "Website to encode your password with a secret key. The password will be encoded in in sha256!",
+  "tmotd": "Website to display the best movie of the day on the different streaming platforms",
+  "cesiEats": "CESI Eats - A ready meal delivery app",
 
   "name": "Name",
   "subject": "Subject",

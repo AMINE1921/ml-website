@@ -53,6 +53,9 @@
   "ingeniCar": "Création d'un robot-véhicule autonome",
   "bdeShop": "Site web pour le BDE du CESI en HTML/CSS, JS et PHP",
   "easySave": "Application de sauvegarde en .NET Core",
+  "encodePassword": "Un site internet pour encoder votre mot de passe avec une clé secrète. Le mot de passe sera encodé en sha256 !",
+  "tmotd": "Une application web qui affiche le meilleur film du jour sur les différentes plateformes de streaming",
+  "cesiEats": "CESI Eats - Une application web de livraison de plats cuisinés",
 
   "name": "Nom",
   "subject": "Sujet",
