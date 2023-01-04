@@ -18,20 +18,21 @@ const Knowledges = () => {
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={90} text={"HTML5"}></CircularProgress>
-                            <CircularProgress value={80} text={"CSS3"}></CircularProgress>
+                            <CircularProgress value={90} text={"CSS3"}></CircularProgress>
                             <CircularProgress value={80} text={"Bootstrap"}></CircularProgress>
-                            <CircularProgress value={80} text={"Sass"}></CircularProgress>
+                            <CircularProgress value={90} text={"Sass"}></CircularProgress>
                             <CircularProgress value={90} text={"JS"}></CircularProgress>
                             <CircularProgress value={60} text={"jQuery"}></CircularProgress>
                             <CircularProgress value={50} text={"NodeJS"}></CircularProgress>
                             <CircularProgress value={30} text={"PHP"}></CircularProgress>
                             <CircularProgress value={50} text={"SQL"}></CircularProgress>
                             <CircularProgress value={20} text={"NoSQL"}></CircularProgress>
+                            <CircularProgress value={50} text={"Python"}></CircularProgress>
                             <CircularProgress value={20} text={"JAVA"}></CircularProgress>
                             <CircularProgress value={45} text={"C#"}></CircularProgress>
                             <CircularProgress value={20} text={"C"}></CircularProgress>
                             <CircularProgress value={90} text={"ReactJS"}></CircularProgress>
-                            <CircularProgress value={50} text={"Express.js"}></CircularProgress>
+                            <CircularProgress value={70} text={"Express.js"}></CircularProgress>
                             <CircularProgress value={40} text={"Symfony"}></CircularProgress>
                         </div>
                     </div>
