@@ -1,10 +1,11 @@
 {
   "title_home": "Mohamed Lamine OUBAYA | full-stack Web Developer",
-  "description_home": "I am a full-stack web developper with a passion for building web applications. I have a strong background in web development and I am currently working on my master's degree in Computer Science.",
+  "description_home": "I am a full-stack web developper with a passion for building web applications. I have a strong background in web development and I am currently working at EDZO in Paris.",
   "fr": "French",
   "en": "English",
   "hello": "Hey! I'm",
-  "Im": "I'm a student at",
+  "Im": "I'm a engineer in",
+  "dev_secu": "Computer Science and Cybersecurity",
   "cesi": "CESI engineering school",
 
   "home": "Home",
@@ -57,6 +58,7 @@
   "easySave": "Backup application in . NET Core",
   "encodePassword": "Website to encode your password with a secret key. The password will be encoded in in sha256!",
   "tmotd": "Website to display the best movie of the day on the different streaming platforms",
+  "maxiBot": "Bot discord for alert when TGCMax seat is available",
   "cesiEats": "CESI Eats - A ready meal delivery app",
 
   "name": "Name",
