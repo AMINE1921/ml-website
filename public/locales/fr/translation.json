@@ -1,10 +1,11 @@
 {
   "title_home": "Mohamed Lamine OUBAYA | Développeur Web full stack",
-  "description_home": "Mohamed Lamine OUBAYA, développeur web full stack, passionné par le développement et la création d'applications web. J'ai une solide expérience en développement et j'effectue actuellement ma dernière année de master en informatique à CESI École d'ingénieurs à Reims.",
+  "description_home": "Mohamed Lamine OUBAYA, développeur web full stack, passionné par le développement et la création d'applications web. J'ai une solide expérience en développement et j'effectue actuellement ingénieur développement chez EDZO à Paris.",
   "fr": "Français",
   "en": "Anglais",
   "hello": "Salut ! Je suis",
-  "Im": "Je suis étudiant à",
+  "Im": "Je suis ingénieur en",
+  "dev_secu": "Développement et Cybersécurité",
   "cesi": "CESI école d'ingénieurs",
 
   "home": "Accueil",
@@ -57,6 +58,7 @@
   "easySave": "Application de sauvegarde en .NET Core",
   "encodePassword": "Un site internet pour encoder votre mot de passe avec une clé secrète. Le mot de passe sera encodé en sha256 !",
   "tmotd": "Une application web qui affiche le meilleur film du jour sur les différentes plateformes de streaming",
+  "maxiBot": "MAXi - Un bot discord qui sert à récupérer les offres TGV Max disponibles entre deux destinations via API de la SCNF",
   "cesiEats": "CESI Eats - Une application web de livraison de plats cuisinés",
 
   "name": "Nom",
