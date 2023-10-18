@@ -19,11 +19,10 @@ const Knowledges = () => {
                         <div className="col">
                             <CircularProgress value={90} text={"HTML5"}></CircularProgress>
                             <CircularProgress value={90} text={"CSS3"}></CircularProgress>
-                            <CircularProgress value={80} text={"Bootstrap"}></CircularProgress>
                             <CircularProgress value={90} text={"Sass"}></CircularProgress>
                             <CircularProgress value={90} text={"JS"}></CircularProgress>
                             <CircularProgress value={60} text={"jQuery"}></CircularProgress>
-                            <CircularProgress value={50} text={"NodeJS"}></CircularProgress>
+                            <CircularProgress value={80} text={"NodeJS"}></CircularProgress>
                             <CircularProgress value={30} text={"PHP"}></CircularProgress>
                             <CircularProgress value={50} text={"SQL"}></CircularProgress>
                             <CircularProgress value={20} text={"NoSQL"}></CircularProgress>
@@ -32,7 +31,7 @@ const Knowledges = () => {
                             <CircularProgress value={45} text={"C#"}></CircularProgress>
                             <CircularProgress value={20} text={"C"}></CircularProgress>
                             <CircularProgress value={90} text={"ReactJS"}></CircularProgress>
-                            <CircularProgress value={70} text={"Express.js"}></CircularProgress>
+                            <CircularProgress value={80} text={"Express.js"}></CircularProgress>
                             <CircularProgress value={40} text={"Symfony"}></CircularProgress>
                         </div>
                     </div>
@@ -49,7 +48,7 @@ const Knowledges = () => {
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
                             <CircularProgress value={80} text={"Photoshop"}></CircularProgress>
-                            <CircularProgress value={60} text={"Premiere"}></CircularProgress>
+                            <CircularProgress value={70} text={"Premiere"}></CircularProgress>
                             <CircularProgress value={50} text={"Lightroom"}></CircularProgress>
                             <CircularProgress value={60} text={"XD"}></CircularProgress>
                         </div>
@@ -58,7 +57,7 @@ const Knowledges = () => {
                     <div className="col-md-4 title" ><h3>{t("other")}</h3></div>
                     <div className="col-md-8 wrap circKnow">
                         <div className="col">
-                            <CircularProgress value={80} text={"Git"}></CircularProgress>
+                            <CircularProgress value={90} text={"Git"}></CircularProgress>
                             <CircularProgress value={60} text={"Script bash"}></CircularProgress>
                             <CircularProgress value={60} text={"Linux"}></CircularProgress>
                             <CircularProgress value={40} text={"Arduino"}></CircularProgress>

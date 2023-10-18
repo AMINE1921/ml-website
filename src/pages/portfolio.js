@@ -35,7 +35,13 @@ const Portfolio = () => {
       <ProgressBar height="6px" bgcolor="#2f89fc" duration="6" />
       <div className="container">
         <div className="row justify-content-center cardsProjects">
-        <Popup
+          <Popup
+            img={media["proj11.png"]}
+            title={t("maxiBot")}
+            imgPopup={media["screen11.png"]}
+            git="https://github.com/AMINE1921/MAXiBOT"
+          />
+          <Popup
             img={media["proj9.png"]}
             title={t("tmotd")}
             imgPopup={media["screen9.png"]}

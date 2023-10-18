@@ -44,7 +44,7 @@ const Home = () => {
               <div className="row slider-text align-items-center text-center justify-content-center">
                 <div className="col-md-12">
                   <p>{t("Im")}</p>
-                  <h1 className="mb-3">{t("cesi")}</h1>
+                  <h1 className="mb-3">{t("dev_secu")}</h1>
                 </div>
               </div>
             </div>
